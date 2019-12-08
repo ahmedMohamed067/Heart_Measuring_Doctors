@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "253163112349",
+    "firebase_url": "https://heart-measuring.firebaseio.com",
+    "project_id": "heart-measuring",
+    "storage_bucket": "heart-measuring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253163112349:android:5bd04d25e4e09e1edb1174",
+        "android_client_info": {
+          "package_name": "heartmeasuring.quardon.doctors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253163112349-6pdi8vka3olba1ns9e90l1rbj005eap8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgXq7BekqcB3AkJi9tVnnIzFg4uzGO9v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253163112349-6pdi8vka3olba1ns9e90l1rbj005eap8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
