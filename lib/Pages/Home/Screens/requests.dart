@@ -46,7 +46,7 @@ class Requests extends StatelessWidget {
               DocumentSnapshot request = requests[index];
 
               String time =
-                  formatDate(request["time"].toDate(), [hh, ":", mm, " ", am]);
+                  formatDate(request["time"].toDate(), [hh, ":", nn, " ", am]);
 
               return Padding(
                 padding: EdgeInsets.fromLTRB(15, 0, 15, 20),

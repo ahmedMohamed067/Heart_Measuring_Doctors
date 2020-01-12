@@ -131,7 +131,9 @@ class _AddDialogState extends State<AddDialog> {
           setState(() {});
         },
         child: Text(
-          (clinic["from"] != null) ? "${clinic["from"].hour} " : "From",
+          (clinic["from"] != null)
+              ? "${clinic["from"].hour}:${clinic["from"].minute}"
+              : "From",
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.black54,
@@ -150,7 +152,9 @@ class _AddDialogState extends State<AddDialog> {
           setState(() {});
         },
         child: Text(
-          (clinic["to"] != null) ? "${clinic["to"].hour} " : "To",
+          (clinic["to"] != null)
+              ? "${clinic["to"].hour}:${clinic["to"].minute}"
+              : "To",
           style: TextStyle(
             color: Colors.black54,
             fontSize: 16,

@@ -45,9 +45,9 @@ class Clinics extends StatelessWidget {
               DocumentSnapshot clinic = clinics[index];
 
               String from =
-                  formatDate(clinic["from"].toDate(), [hh, ":", mm, " ", am]);
+                  formatDate(clinic["from"].toDate(), [hh, ":", nn, " ", am]);
               String to =
-                  formatDate(clinic["to"].toDate(), [hh, ":", mm, " ", am]);
+                  formatDate(clinic["to"].toDate(), [hh, ":", nn, " ", am]);
 
               return Padding(
                 padding: EdgeInsets.fromLTRB(15, 0, 15, 20),
